@@ -104,7 +104,7 @@ namespace Assign4_SystemTest
             driver.FindElement(By.XPath("(.//*[normalize-space(text()) and normalize-space(.)='Search car details'])[1]/preceding::button[1]")).Click();
             driver.FindElement(By.Name("sname")).Click();
             driver.FindElement(By.Name("sname")).Clear();
-            driver.FindElement(By.Name("sname")).SendKeys("Moly");
+            driver.FindElement(By.Name("sname")).SendKeys("Moly Simon");
             driver.FindElement(By.Name("address")).Click();
             driver.FindElement(By.Name("address")).Clear();
             driver.FindElement(By.Name("address")).SendKeys("S N Park");
